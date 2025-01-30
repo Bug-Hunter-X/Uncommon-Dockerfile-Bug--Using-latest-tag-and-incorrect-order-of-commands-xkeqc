@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon but important bug in Dockerfiles. The bug involves using the latest tag for the base image and installing python packages before copying the requirements.txt file. The solution shows how to use a specific version tag and correct the order of commands to prevent unnecessary installations.
